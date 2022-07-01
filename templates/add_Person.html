@@ -1,0 +1,24 @@
+<body bgcolor="#c0c0c0">
+<center><h1>Add member</h1></center>
+<form action="" method="POST">
+    <center>
+    {% csrf_token %}
+    First Name:<br>
+    <input name="name">
+    <br><br>
+    Surname:<br>
+    <input name="surname">
+    <br><br>
+    Age:<br>
+    <input name="age">
+    <br><br>
+    City<br>
+    <input name="city">
+    <br><br>
+    Email:<br>
+    <input name="email" >
+    <br><br>
+    <input type="submit" value="Add User">
+    </center>
+</form>
+</body>

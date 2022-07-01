@@ -1,0 +1,64 @@
+<!-- 
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		main
+ *	@date 		1655632622726
+ *	@title 		Page 1
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.3.figma
+ *zz
+*/
+ -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>main</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="../static/gg.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<!-- Add your custom HEAD content here -->
+
+	</head>
+	<body>
+		<div id="content-container" >
+                    <div class="table-wrapper">
+            <table class="sticky-header sticky-column">
+                {% for Person in Person %}
+                    <thead>
+                    <td><a href="delete/{{ Person.id }} ">delete</a></td>
+                    <img src="skins/vector_1.png" alt="">
+                    <th><h1>name: {{ Person.name }}</h1></th>
+                    <th><p>surname : {{ Person.surname }}</p></th>
+                    <th><p>age : {{ Person.age }}</p></th>
+                    <th><p>city : {{ Person.city }}</p></th>
+                    <th><p>email : {{ Person.email }}</p></th>
+                    <th></th>
+                    <th></th>
+                {% endfor %}
+                </tr>
+                </thead>
+            </table>
+            <a href="add_Person/">Add Teacher</a>
+
+
+			<div id="page_gg_ek1"  >
+				<div id="_bg__gg_ek2"  ></div>
+				<img src="skins/vector_2_ek1.png" id="vector_2_ek1" />
+				<img src="skins/vector_1_ek1.png" id="vector_1_ek1" />
+				<img src="skins/vector_4_ek1.png" id="vector_4_ek1" />
+				<img src="skins/vector_5_ek1.png" id="vector_5_ek1" />
+				<img src="skins/vector_6_ek1.png" id="vector_6_ek1" />
+
+			</div>
+
+        </div>
+		</div>
+		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+	</body>
+</html>

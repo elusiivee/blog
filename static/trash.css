@@ -1,0 +1,19 @@
+.footer {
+  align-self: center;
+  margin: 1000px auto;
+}
+
+body {
+  padding: 0 20px;
+}
+
+#id1 {
+  float: right;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#id2 {
+  font-size: 18px;
+}
